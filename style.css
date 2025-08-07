@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("image/8047336-pop-art-cultures-pattern.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 214, 166, 0.747);
+  background-blend-mode: lighten;
+}
+
+.clear {
+  clear: both;
+}
+
+#header {
+  background-color: #4e4c50;
+  height: 120px;
+}
+
+#headerh1 {
+  float: left;
+  margin-top: 32px;
+  color: antiquewhite;
+  margin-left: 10px;
+  font-size: 50px;
+}
+
+#headernav {
+  float: right;
+}
+
+#navul {
+  margin-right: 1px;
+  display: flex;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.navli {
+  color: antiquewhite;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 940px;
+}
+
+/* #hero-image {
+  text-transform: uppercase;
+  height: 680px;
+  padding-top: 1px;
+  width: 100%;
+  background-position: center 50%;
+  background-repeat: no-repeat;
+  margin: 0;
+  background-image: url("image/8582911.jpg");
+  background-size: 100% 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: darken;
+}
+ */
+#hero-imageh2 {
+  font-size: 150px;
+  font-weight: 300;
+  margin: 180px 0 40px 0;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff4e7;
+}
+
+#hero-image {
+  height: 580px;
+  padding-top: 1px;
+  background: #e8eced url("image/8582911.jpg") no-repeat center;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: darken;
+}
+
+#feature ul {
+  display: flex;
+  margin: 80px 0;
+}
+
+#feature ul li {
+  width: 300px;
+  padding-top: 140px;
+  float: left;
+  text-align: center;
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+#feature-1 {
+  background-image: url("image/icons8-edit-80.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#feature-2 {
+  background-image: url("image/icons8-stack-80.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#feature-3 {
+  background-image: url("image/icons8-rocket-80.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+#feature-1-p {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#feature-1-h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#feature-2-p {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#feature-2-h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#feature-3-p {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#feature-3-h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#primary-content {
+  display: flex;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#primary-content h3 {
+  display: block;
+  margin: 0 auto 29px auto;
+  width: 400px;
+  border-bottom: 1px solid #02b8dd;
+  padding: 0 0 20px 0;
+  font-size: 50px;
+  color: #444;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: unset;
+  margin-bottom: 20px;
+}
+
+#primary-content p {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#article img {
+  width: 90%;
+}
+
+.overlay h4 {
+  font-size: 24px;
+  color: #444;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.overlay p {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#secondary-content {
+  padding: 60px 0;
+  text-align: center;
+}
+
+#secondary-content article {
+  width: 460px;
+  height: 270px;
+  float: left;
+}
+
+#secondary-content article .overlay {
+  background: rgba(255, 255, 255, 0.95);
+  height: 230px;
+  width: 190px;
+  padding: 20px;
+}
+
+article h4 {
+  border-bottom: 1px solid #02b8dd;
+  padding-bottom: 20px;
+}
+
+#call-to-action h3 {
+  font-size: 30px;
+  color: #444;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#call-to-action p {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#footer {
+  padding: 60px 0;
+  background-color: #a5a18d88;
+  /* background-image: url("image/e7d5cfa48dcc95e8fb08ffcba28ef675.jpg"); */
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 241, 209, 0.644);
+  background-blend-mode: lighten; */
+}
+#footer-info {
+  width: 380px;
+  float: left;
+  margin-top: 50px;
+}
+#footer-links {
+  width: 520px;
+  float: right;
+}
+#footer-links ul {
+  width: 150px;
+  float: left;
+  margin-left: 20px;
+}
+#footer-links ul li {
+  margin: 10px 0;
+}
+
+#footer-links ul li h5 {
+  font-size: 30px;
+  color: #444;
+  font-weight: bold;
+  text-transform: uppercase;
+}
