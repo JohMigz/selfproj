@@ -70,6 +70,7 @@ body {
   text-align: center;
   margin-bottom: 20px;
   color: #fff4e7;
+  animation: fade-up 0.9s;
 }
 
 #hero-image {
@@ -78,6 +79,7 @@ body {
   background: #e8eced url("image/8582911.jpg") no-repeat center;
   background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: darken;
+  animation: fade-up 0.5s;
 }
 
 #feature ul {
