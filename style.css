@@ -4,7 +4,7 @@ body {
   background-image: url("image/8047336-pop-art-cultures-pattern.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(255, 214, 166, 0.747);
+  background-color: rgba(128, 90, 252, 0.622);
   background-blend-mode: lighten;
 }
 
@@ -239,7 +239,7 @@ article h4 {
 
 #footer {
   padding: 60px 0;
-  background-color: #a5a18d88;
+  background-color: #a49a652c;
   /* background-image: url("image/e7d5cfa48dcc95e8fb08ffcba28ef675.jpg"); */
   /* background-repeat: no-repeat;
   background-size: cover;
