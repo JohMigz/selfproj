@@ -30,7 +30,6 @@
   </head>
 
   <body>
-    <script src="main.js"></script>
     <header id="header">
       <div class="wrapper">
         <h1 id="headerh1">SIMPLY</h1>
@@ -82,22 +81,49 @@
       </div>
     </div>
 
-    <div id="primary-content">
-      <article id="article">
-        <h3>Featured Content</h3>
-        <h3>CITY TOUR JAPAN</h3>
+    <div class="primary-content">
+      <div class="article">
+        <h3>ALTERNATE</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod
           leo a nibh dignissim tincidunt. Nam ultricies odio ac neque suscipit
           volutpat. Ut dictum adipiscing felis sed malesuada. Integer porta sem
           nec nibh hendrerit imperdiet.
         </p>
-        <img src="image/6734809.jpg" />
-      </article>
+        <img src="image/ALTERNSTE.PNG" />
+      </div>
+      <div class="article">
+        <h3>RETRO</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod
+          leo a nibh dignissim tincidunt. Nam ultricies odio ac neque suscipit
+          volutpat. Ut dictum adipiscing felis sed malesuada. Integer porta sem
+          nec nibh hendrerit imperdiet.
+        </p>
+        <img src="image/f5ac7ada03d1b90213808aa0cb751d2b.jpg" />
+      </div>
+      <div class="article">
+        <h3>CHILLING</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod
+          leo a nibh dignissim tincidunt. Nam ultricies odio ac neque suscipit
+          volutpat. Ut dictum adipiscing felis sed malesuada. Integer porta sem
+          nec nibh hendrerit imperdiet.
+        </p>
+        <img src="image/chillinh.png" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 
     <div id="secondary-content">
-      <div class="wrapper">
         <article style="background-image: url(image/2935976.jpg)">
           <div class="overlay">
             <h4>SECONDARY CONTENT</h4>
@@ -163,5 +189,6 @@
         <div class="clear"></div>
       </div>
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>
